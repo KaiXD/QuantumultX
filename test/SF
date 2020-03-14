@@ -1,3 +1,3 @@
 hostname=*ohayoo.cn
 
-^https?://u\.ohayoo\.cn/uyun/api/board/board\?customer_id=1080001&appid=10001&device_id.*&os=iOS&version=0.1.31&userid=([^&]*)&account_id=([^&]*)&account_type=openid url 302 https://u.ohayoo.cn/uyun/api/board/board?customer_id=1080001&appid=10001&os=android&version=0.1.33.2&userid=$1&account_id=$2&account_type=openid
+^https?://u\.ohayoo\.cn/uyun/api/leaderboard/board\?customer_id=1080001&appid=10001&device_id.*&os=iOS&version=0.1.31&userid=([^&]*)&account_id=([^&]*)&account_type=openid url 302 https://u.ohayoo.cn/uyun/api/leaderboard/board?customer_id=1080001&appid=10001&os=android&version=0.1.33.2&userid=$1&account_id=$2&account_type=openid
